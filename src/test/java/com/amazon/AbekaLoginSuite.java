@@ -15,11 +15,16 @@ public class AbekaLoginSuite {
     WebDriver driver;
     WebDriverWait driverWait;
 
+    @Test
+    public void testdemo(){
+        System.out.println("Demo test");
+    }
 
     @Test(dataProvider="Credentials", dataProviderClass = DataFetcher.class)
     public void testAbekaLogin(Object[] credentialList) throws InterruptedException {
 
         System.setProperty("webdriver.chrome.driver", "/Users/krupaljoshi/Desktop/Krupal Selenium/chromedriver");
+        driver = new ChromeDriver();
 
         driverWait = new WebDriverWait(driver, 10);
         driver.manage().window().maximize();

@@ -3,14 +3,12 @@
 
 <suite name="All Test Suite">
 
-    <test verbose="2" preserve-order="true" name="/Users/krupaljoshi/IdeaProjects/Demo">
-        <parameter name="browserName" value="chrome"></parameter>
+    <test verbose="2" preserve-order="true" name ="Demo">
 
         <classes>
         <class name="com.amazon.AbekaLoginSuite">
 
         </class>
-
 
 
     </classes>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="com.amazon.TestNGMultiBrowserTesting">
+        <methods>
+          <include name="testLaunch"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.amazon.TestNGMultiBrowserTesting -->
+      <class name="com.amazon.FirstTest">
+        <methods>
+          <include name="Testbrowser"/>
+        </methods>
+      </class> <!-- com.amazon.FirstTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
